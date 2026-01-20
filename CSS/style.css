@@ -47,6 +47,7 @@ nav a {
     font-size: 14px;
 }
 .boton {
+    display: inline-block;
     margin-top: 32px;
     padding: 14px 36px;
     background-color: #f06414;
@@ -54,6 +55,8 @@ nav a {
     text-decoration: none;
     font-weight: 800;
     border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 footer {
@@ -83,17 +86,41 @@ main {
     transform: translate(-50%, -50%);
     text-align: center;
     max-width: 800px;
+    z-index: 2;
 }
 .texto_en_el_video h1 {
     font-size: 64px;
     font-weight: 900;
     margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 .texto_en_el_video p {
     font-size: 20px;
     margin-bottom: 10px;
+    opacity: 0.9;
 }
 .boton:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+.plataformas {
+    background-color: #0b141c;
+    padding: 40px 20px;
+    text-align: center;
+}
+.plataformas h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.plataformas ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.plataformas li {
+    font-size: 14px;
+    opacity: 0.8;
 }
