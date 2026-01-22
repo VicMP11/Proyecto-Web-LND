@@ -23,20 +23,18 @@ header {
 }
 .filtro {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.45);
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
 }
 .logo a {
     text-decoration: none;
     font-weight: 900;
-    color: #111;
+    color: #0a0a0a;
+    letter-spacing: 1px;
 }
 nav ul {
-
+    list-style: none;
     display: flex;
     gap: 24px;
 }
@@ -48,8 +46,8 @@ nav a {
 }
 .boton {
     display: inline-block;
-    margin-top: 32px;
-    padding: 14px 36px;
+    margin-top: 36px;
+    padding: 16px 42px;
     background-color: #f06414;
     color: #fff;
     text-decoration: none;
@@ -73,6 +71,7 @@ main {
     position: relative;
     width: 100%;
     height: 100vh;
+    overflow: hidden;
 }
 .heroe_video video {
     width: 100%;
@@ -85,15 +84,14 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    max-width: 800px;
+    max-width: 900px;
     z-index: 2;
 }
 .texto_en_el_video h1 {
     font-size: 64px;
     font-weight: 900;
     margin-bottom: 20px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 .texto_en_el_video p {
     font-size: 20px;
@@ -102,7 +100,7 @@ main {
 }
 .boton:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.4);
 }
 .plataformas {
     background-color: #0b141c;
@@ -123,4 +121,12 @@ main {
 .plataformas li {
     font-size: 14px;
     opacity: 0.8;
+}
+.subtitulo {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+.detalle {
+    font-size: 18px;
+    opacity: 0.85;
 }
