@@ -3,22 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto web</title>
+    <title>Noticias | Overwatch</title>
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <a href="#">
-                <span>esto sera el logo</span>
-            </a>
-        </div>
-        <nav>
-            <ul>
-                <li><a class="top de la pagina" href="index.html">Información del juego</a></li>
-                <li><a href="Héroes.html">Héroes</a></li>
-                <li><a href="Temporada.html">Temporada</a></li>
-                <li><a href="Noticias.html">Noticias</a></li>
-            </ul>
-        </nav>
-    </header>
+
+<header>
+    <div class="logo">
+        <a href="index.html">
+            <img src="Assets/logo.png" alt="Logo Overwatch" height="40">
+        </a>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Información del juego</a></li>
+            <li><a href="Héroes.html">Héroes</a></li>
+            <li><a href="Temporada.html">Temporada</a></li>
+            <li><a href="Noticias.html">Noticias</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="titulo-pagina">
+        <h1>Noticias</h1>
+        <p>Últimas novedades del universo Overwatch</p>
+    </section>
+
+    <section class="galeria">
+        <table style="width:100%; max-width:1000px; margin:auto; border-collapse: collapse;">
+            <thead>
+                <tr style="background-color:#111c26;">
+                    <th style="padding:12px;">Fecha</th>
+                    <th style="padding:12px;">Título</th>
+                    <th style="padding:12px;">Descripción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="padding:12px;">10/01/2026</td>
+                    <td style="padding:12px;">Nueva temporada disponible</td>
+                    <td style="padding:12px;">Comienza una nueva temporada con recompensas y cambios.</td>
+                </tr>
+                <tr>
+                    <td style="padding:12px;">22/12/2025</td>
+                    <td style="padding:12px;">Evento especial</td>
+                    <td style="padding:12px;">Evento temporal con modos de juego únicos.</td>
+                </tr>
+                <tr>
+                    <td style="padding:12px;">05/12/2025</td>
+                    <td style="padding:12px;">Ajustes de héroes</td>
+                    <td style="padding:12px;">Cambios de balance para mejorar la jugabilidad.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; Victor Manuel Piñar Murillo 2026</p>
+</footer>
+
+</body>
+</html>
